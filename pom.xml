@@ -28,15 +28,10 @@
     </dependency>
   </dependencies>
 <distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>JenkinsServer-releases</name>
-        <url>http://192.168.1.13:8081/artifactory/webapp_pipeline</url>
-    </repository>
     <snapshotRepository>
         <id>snapshots</id>
         <name>JenkinsServer-snapshots</name>
-        <url>http://192.168.1.13:8081/artifactory/webapp_pipeline</url>
+        <url>http://192.168.1.13:8081/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
 </distributionManagement>
 
